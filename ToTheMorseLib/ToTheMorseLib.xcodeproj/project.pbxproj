@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		63595E9D241D207300824C17 /* ToTheMorseLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63595E9C241D207300824C17 /* ToTheMorseLib.swift */; };
 		63595EA4241D231400824C17 /* MorseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63595EA3241D231400824C17 /* MorseConverter.swift */; };
-		63595EA6241D23B000824C17 /* MorseSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63595EA5241D23B000824C17 /* MorseSymbols.swift */; };
+		636C31F524221BB000CA0C4F /* MorseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C31F424221BB000CA0C4F /* MorseLanguage.swift */; };
+		636C31F724232A3700CA0C4F /* MorseSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C31F624232A3700CA0C4F /* MorseSymbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +29,8 @@
 		63595E99241D207300824C17 /* libToTheMorseLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToTheMorseLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63595E9C241D207300824C17 /* ToTheMorseLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToTheMorseLib.swift; sourceTree = "<group>"; };
 		63595EA3241D231400824C17 /* MorseConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseConverter.swift; sourceTree = "<group>"; };
-		63595EA5241D23B000824C17 /* MorseSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSymbols.swift; sourceTree = "<group>"; };
+		636C31F424221BB000CA0C4F /* MorseLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseLanguage.swift; sourceTree = "<group>"; };
+		636C31F624232A3700CA0C4F /* MorseSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSymbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 			children = (
 				63595E9C241D207300824C17 /* ToTheMorseLib.swift */,
 				63595EA3241D231400824C17 /* MorseConverter.swift */,
-				63595EA5241D23B000824C17 /* MorseSymbols.swift */,
+				636C31F424221BB000CA0C4F /* MorseLanguage.swift */,
+				636C31F624232A3700CA0C4F /* MorseSymbols.swift */,
 			);
 			path = ToTheMorseLib;
 			sourceTree = "<group>";
@@ -126,9 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636C31F724232A3700CA0C4F /* MorseSymbols.swift in Sources */,
+				636C31F524221BB000CA0C4F /* MorseLanguage.swift in Sources */,
 				63595E9D241D207300824C17 /* ToTheMorseLib.swift in Sources */,
 				63595EA4241D231400824C17 /* MorseConverter.swift in Sources */,
-				63595EA6241D23B000824C17 /* MorseSymbols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

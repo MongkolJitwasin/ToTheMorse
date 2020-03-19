@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public enum MorseSymbols {
+    case dit
+    case dah
+    case space
+}

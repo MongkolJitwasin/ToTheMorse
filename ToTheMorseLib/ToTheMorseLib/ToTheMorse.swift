@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class MorseConverter {
+public class ToTheMorse {
     
     private init() {}
     
